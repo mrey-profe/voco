@@ -3,10 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWS Workshop Landing</title>
+    <title>AWS Intro Workshop</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="container nav-shell">
+        <p class="brand">AWS Intro Session</p>
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#workshop">Workshop</a></li>
+            <li><a href="#agenda">Agenda</a></li>
+            <li><a href="#location">Location</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="workshop">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">VOCO Estonia - Hands-on Lab</p>
+            <h1>Welcome to the Introduction to AWS Workshop</h1>
+            <p>
+              Start your cloud journey by deploying a static site with AWS Amplify,
+              understanding modern hosting workflows, and shipping your first project.
+            </p>
+            <a class="primary-button" href="#agenda">See Workshop Agenda</a>
+          </div>
+          <aside class="hero-panel" aria-label="Workshop details">
+            <h2>Session Snapshot</h2>
+            <ul>
+              <li>Level: Beginner</li>
+              <li>Tooling: AWS Amplify</li>
+              <li>Format: Guided practice</li>
+              <li>Venue: VOCO Estonia</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="agenda" id="agenda">
+        <div class="container">
+          <h2>Workshop Agenda</h2>
+          <div class="card-grid">
+            <article class="card">
+              <h3>1. AWS Fundamentals</h3>
+              <p>Core cloud concepts and where Amplify fits in the AWS ecosystem.</p>
+            </article>
+            <article class="card">
+              <h3>2. Build and Connect</h3>
+              <p>Prepare a simple web project and connect it to an Amplify app.</p>
+            </article>
+            <article class="card">
+              <h3>3. Deploy Live</h3>
+              <p>Publish your site and review the deployment lifecycle end-to-end.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="location" id="location">
+        <div class="container location-shell">
+          <h2>Hosted at VOCO Estonia</h2>
+          <p>
+            This workshop is part of a practical learning session in Estonia focused
+            on launching web projects in AWS.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <p>AWS Intro Workshop</p>
+        <p>2026 learning session</p>
+      </div>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
